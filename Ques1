@@ -1,0 +1,11 @@
+let demo = (a)=>{
+    array= [3,62,234,7,23,74,23,76,92];
+	newarray=[];
+	
+    for(let i=0;i<array.length; i++){
+        if(array[i]>70)
+            newarray.push(array[i]);
+    }
+}
+demo();
+console.log(newarray);
