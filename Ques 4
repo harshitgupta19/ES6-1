@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise</title>
+
+  </head>
+  <body>
+   <div id="result">
+
+   </div>
+    <script>
+
+const user = {
+
+firstName:'Sahil',
+lastName:'Dua',
+Address:{
+Line1: 'address line 1',
+Line2: 'address line 2',
+State: 'Delhi',
+Pin: 110085,
+Country: 'India',
+City: 'New Delhi',
+},
+phoneNo: 9999999999
+}
+
+let {Line1, Line2, State, Pin, Country,City} = user.Address;
+ 
+
+ document.getElementById("result").innerHTML=Line1 +" "+Line2 +" "+ State+" " + Pin+" " +Country+" " + City;
+
+
+
+    </script>
+    
+  </body>
+
+</html>
